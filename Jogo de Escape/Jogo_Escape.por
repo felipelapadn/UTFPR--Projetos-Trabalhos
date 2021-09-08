@@ -11,13 +11,13 @@ programa
 		escreva("\nEscolha: ")
 	}
 
-	funcao som_ambiente()
+	/*funcao som_ambiente()
 	{	
 		inteiro carrega = s.carregar_som("MistyEffect.mp3")
 		
 		s.reproduzir_som(carrega, verdadeiro)
 		s.definir_volume(80)
-	}
+	}*/
 
 	funcao escreve_matrizPontuacao (real oxigenio, inteiro estado)
 	{
@@ -90,7 +90,7 @@ programa
 	
 	funcao inicio()
 	{	
-		som_ambiente()
+		//som_ambiente()
 		u.aguarde(1500)
 		
 		texto("Ano: 2027; Est.: Estação Espacial Nº42; Órbita: 450 km.", falso)
