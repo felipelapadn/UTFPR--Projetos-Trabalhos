@@ -20,6 +20,14 @@
 
 #### Funções que eu fiz:
 - mostrar_opcoes
+  '''
+  funcao mostrar_opcoes(cadeia esc_do_user_1, cadeia esc_do_user_2)
+	{
+		escreva("\n[1] - ", esc_do_user_1)
+		escreva("\n[2] - ", esc_do_user_2)
+		escreva("\nEscolha: ")
+	}
+  '''
 - som_ambiente
 - texto
 - verifica_escolha
@@ -27,7 +35,7 @@
  
 ## Créditos
 <p>Grupo: Aliana Wakassugui, Felipe Lapa do Nascimento, Rafael Vieira dos Santos<p>
-<p>Professora: @skborges<p>
+<p>Professora: Suzan K. Borges Piovesan(@skborges)<p>
 <p>Música: Misty Effect (Revolt Production Music - "Infinity 2016) (para mais detalhes: https://www.youtube.com/watch?v=4F7sdy2rZws&t=1310s)<p>
 
 ## Obervações adicionais
