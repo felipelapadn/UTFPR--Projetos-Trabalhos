@@ -20,14 +20,14 @@
 
 #### Funções que eu fiz:
 - mostrar_opcoes
-  '''
+  ```
   funcao mostrar_opcoes(cadeia esc_do_user_1, cadeia esc_do_user_2)
 	{
 		escreva("\n[1] - ", esc_do_user_1)
 		escreva("\n[2] - ", esc_do_user_2)
 		escreva("\nEscolha: ")
 	}
-  '''
+  ```
 - som_ambiente
 - texto
 - verifica_escolha
