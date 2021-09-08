@@ -41,13 +41,54 @@
   ```
 
 - texto
+  ```
+  funcao texto(cadeia text, logico quebra)
+  {
+	se (quebra == verdadeiro)
+	{
+		escreva("\n", text, " ")
+	}
+	se (quebra == falso)
+	{
+		escreva("\n", text)
+		u.aguarde(4000)
+	}
+  }
+  ```
 - verifica_escolha
+  ```
+  funcao verifica_escolha(caracter &impasse, cadeia esc_do_user_1, cadeia esc_do_user_2)
+  {
+	logico verifica = verdadeiro
+
+	enquanto(verifica == verdadeiro)
+	{	
+		se ((impasse == '1') ou (impasse == '2'))
+		{
+			pare
+		}
+		se ((impasse != '1') ou (impasse != '2'))
+		{
+			mostrar_opcoes(esc_do_user_1, esc_do_user_2)
+			leia(impasse)
+		}
+	}
+  }
+  ```
 - pausa
- 
+  ```
+  funcao pausa(inteiro pausar)
+  {
+	u.aguarde(pausar)
+	limpa()
+  }
+  ```
+	
 ## Créditos
 <p>Grupo: Aliana Wakassugui, Felipe Lapa do Nascimento, Rafael Vieira dos Santos<p>
 <p>Professora: Suzan K. Borges Piovesan(@skborges)<p>
 <p>Música: Misty Effect (Revolt Production Music - "Infinity 2016) (para mais detalhes: https://www.youtube.com/watch?v=4F7sdy2rZws&t=1310s)<p>
 
 ## Obervações adicionais
-O trabalho feito possui, somente, fins didáticos. Caso haja alguma irregularidade entre em contato.
+<p>Para rodar o jogo e tocar a música ao mesmo tempo, é necessário que os dois estejam na mesma pasta.<p>
+<p>O trabalho feito possui, somente, fins didáticos. Caso haja alguma irregularidade entre em contato.<p>
