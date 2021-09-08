@@ -1,7 +1,7 @@
 programa
 {
 	inclua biblioteca Sons --> s
-     inclua biblioteca Util --> u
+     	inclua biblioteca Util --> u
 	inclua biblioteca Tipos --> tp
 
 	funcao mostrar_opcoes(cadeia esc_do_user_1, cadeia esc_do_user_2)
