@@ -29,6 +29,16 @@
 	}
   ```
 - som_ambiente
+```
+funcao som_ambiente()
+{	
+	inteiro carrega = s.carregar_som("MistyEffect.mp3") /*Carregar um som pelo endereço do arquivo
+								e devolve um número na memória. Esse número
+								é usado  para a reprodução do som*/
+	s.reproduzir_som(carrega, verdadeiro)
+	s.definir_volume(80)
+}
+
 - texto
 - verifica_escolha
 - pausa
