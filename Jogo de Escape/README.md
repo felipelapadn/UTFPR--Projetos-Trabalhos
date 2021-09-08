@@ -3,7 +3,7 @@
 
 ## Desenvolvimento do jogo
 <p>Nós dividimos o desenvolvimento do jogo. Eu fiquei encarregado da história e de fazer algumas funções.<p>
-<p>Primeiramente, fizemos um fluxograma para nos auxiliar e para ter uma base da história. Logo em seguida, os outros dois integrantes do grupo começaram o desenvolvimento para que depois eu pudesse incluir o texto no jogo. Durante todo o tempo estávamos dispostsos a ajudar um ao outro e dar palpites do que poderia ser feito para melhorar a jogabilidade. Tivemos várias ideias de como poderiamos dar vida ao nosso jogo da melhor maneira possível, mas decidimos resumir o desenvolvimento por causa do tempo. Depois de "pronto", o jogo passou por algumas reformas para eliminar bugs.<p>
+<p>Primeiramente, fizemos um fluxograma para nos auxiliar e para ter uma base da história. Logo em seguida, os outros dois integrantes do grupo começaram o desenvolvimento para que depois eu pudesse incluir o texto no jogo. Durante todo o tempo estávamos dispostsos a ajudar um ao outro e dar palpites do que poderia ser feito para melhorar a jogabilidade. Tivemos várias ideias de como poderíamos dar vida ao nosso jogo da melhor maneira possível, mas decidimos resumir o desenvolvimento por causa do tempo. Depois de "pronto", o jogo passou por algumas reformas para eliminar bugs.<p>
   
 ## Minha parte do trabalho
   
