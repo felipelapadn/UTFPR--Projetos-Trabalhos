@@ -86,6 +86,10 @@ void dicas(int *dica, char* palavra, char* palavra_serceta_sem_letra){
 }
 ```
 
-### Dificuldades
-Houve algumas complicações durante o projeto, por conta de ser o primeiro contato com a linguagem C. O jogo é baseado em **STRING**, então manipulação de caracteres foi um assunto que precisa ser entendido e aplicado com muito cuidado. Em muitos momentos do desenvolvimento, os **PRINTFs** saiam com um resultado absurdo ou as variáveis, simplesmente, não retornavam valores. Depois de muito estudar as bibliotecas __string.h__ e __ctype.h__
+E depois de criar a estrutura completa para o primeiro nível, repliquei para os dois seguintes.
 
+### Dificuldades
+Houve algumas complicações durante o projeto, por conta de ser o primeiro contato com a linguagem C. O jogo é baseado em **STRING**, então manipulação de caracteres foi um assunto que precisa ser entendido e aplicado com muito cuidado. Em muitos momentos do desenvolvimento, os **PRINTFs** saiam com um resultado absurdo ou as variáveis, simplesmente, não retornavam valores. Depois de muito estudar as bibliotecas __string.h__ e __ctype.h__, consegui conduzir o projeto até a sua conclusão sem muitos desvios.
+
+# Observações adicionais
+O trabalho feito possui, somente, fins didáticos. Caso haja alguma irregularidade entre em contato.
