@@ -1,5 +1,5 @@
 # Informações
-A proposta final da disciplina de Linguagem de programação estruturada foi fazer um jogo ou um sistema. A minha ideia foi recriar o jogo da Forca. O projeto poderia ser feito em grupo ou individualmente, escolhi fazer sozinho por ser um projeto simples.
+A proposta final da disciplina de Linguagem de programação estruturada foi fazer um jogo ou um sistema. A minha ideia foi recriar o Jogo da Forca. O projeto poderia ser feito em grupo ou individualmente, escolhi fazer sozinho por ser um projeto simples.
 
 # Desenvolvimento do jogo
 Primeiramente, foi feito um esquema do jogo e da história com fluxogramas. A história do jogo foi uma parte interessante de fazer, já que o tema que selecionei foi desafiador. O tema era, justamente, a época medieval, logo, as palavras que o jogador deveria acertar precisavam estar de acordo com esse clima e dentro da história. Porcurei palavras que faziam parte de cantigas medievais e, com base nessas palavras, criei a história. Para facilitar os caertos, destquei as palavras que poderiam ser sorteadas para a forca com uma função de colorir.
@@ -92,4 +92,7 @@ E depois de criar a estrutura completa para o primeiro nível, repliquei para os
 Houve algumas complicações durante o projeto, por conta de ser o primeiro contato com a linguagem C. O jogo é baseado em **STRING**, então manipulação de caracteres foi um assunto que precisa ser entendido e aplicado com muito cuidado. Em muitos momentos do desenvolvimento, os **PRINTFs** saiam com um resultado absurdo ou as variáveis, simplesmente, não retornavam valores. Depois de muito estudar as bibliotecas __string.h__ e __ctype.h__, consegui conduzir o projeto até a sua conclusão sem muitos desvios.
 
 # Observações adicionais
+- Refrência para as cantigas:
+Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas Medievais Galego Portuguesas [base de dados online]. Lisboa: 	Instituto de Estudos Medievais, FCSH/NOVA. [Consulta em (indicar data da consulta)] Disponível em: <http://cantigas.fcsh.unl.pt>. Acesso em: 28 de nov. 2021.
+
 O trabalho feito possui, somente, fins didáticos. Caso haja alguma irregularidade entre em contato.
