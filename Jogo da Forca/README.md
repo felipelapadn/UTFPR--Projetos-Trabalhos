@@ -2,7 +2,7 @@
 A proposta final da disciplina de Linguagem de programação estruturada foi fazer um jogo ou um sistema. A minha ideia foi recriar o Jogo da Forca. O projeto poderia ser feito em grupo ou individualmente, escolhi fazer sozinho por ser um projeto simples.
 
 # Desenvolvimento do jogo
-Primeiramente, foi feito um esquema do jogo e da história com fluxogramas. A história do jogo foi uma parte interessante de fazer, já que o tema que selecionei foi desafiador. O tema era, justamente, a época medieval, logo, as palavras que o jogador deveria acertar precisavam estar de acordo com esse clima e dentro da história. Porcurei palavras que faziam parte de cantigas medievais e, com base nessas palavras, criei a história. Para facilitar os caertos, destquei as palavras que poderiam ser sorteadas para a forca com uma função de colorir.
+Primeiramente, foi feito um esquema do jogo e da história com fluxogramas. A história do jogo foi uma parte interessante de fazer, já que o tema que selecionei foi desafiador. O tema era, justamente, a época medieval, logo, as palavras que o jogador deveria acertar precisavam estar de acordo com esse clima e dentro da história. Porcurei palavras que faziam parte de cantigas medievais e, com base nessas palavras, criei a história. Para facilitar os acertos, destquei as palavras que poderiam ser sorteadas para a forca com uma função de colorir.
 
 - Função para destacar palavras:
 ```
@@ -22,7 +22,7 @@ void destacar_palavra(char palavra_da_historia[], int cor){
 	printf(": nível 3\n\n");
 ```
 
-Com base nos fluxogramas criados, fiz o esqueleto do jogo da maneira mais simples possível e com apenas um nível. A estrutura principal foi feita com loops WHILE e com algumas condições para verificar se o jogador acertou a palavra ou não. Depois de conseguir criar uma base, comecei a adicionar funções e mais detalhes ao jogo. De todas sas funções, três se destacam:
+Com base nos fluxogramas criados, fiz o esqueleto do jogo da maneira mais simples possível e com apenas um nível. A estrutura principal foi feita com loops **WHILE** e com algumas condições para verificar se o jogador acertou a palavra ou não. Depois de conseguir criar uma base, comecei a adicionar funções e mais detalhes ao jogo. De todas as funções, três se destacam:
 
 - Função para sortear a palavra secreta:
 ```
@@ -89,7 +89,7 @@ void dicas(int *dica, char* palavra, char* palavra_serceta_sem_letra){
 E depois de criar a estrutura completa para o primeiro nível, repliquei para os dois seguintes.
 
 ### Dificuldades
-Houve algumas complicações durante o projeto, por conta de ser o primeiro contato com a linguagem C. O jogo é baseado em **STRING**, então manipulação de caracteres foi um assunto que precisa ser entendido e aplicado com muito cuidado. Em muitos momentos do desenvolvimento, os **PRINTFs** saiam com um resultado absurdo ou as variáveis, simplesmente, não retornavam valores. Depois de muito estudar as bibliotecas __string.h__ e __ctype.h__, consegui conduzir o projeto até a sua conclusão sem muitos desvios.
+Houve algumas complicações durante o projeto, por conta de ser o primeiro contato com a linguagem C. O jogo é baseado em **STRING**, então manipulação de caracteres foi um assunto que precisava ser entendido e aplicado com muito cuidado. Em muitos momentos do desenvolvimento, os **PRINTFs** saiam com resultados absurdso ou as variáveis, simplesmente, não retornavam valores. Depois de muito estudar as bibliotecas __string.h__ e __ctype.h__, consegui conduzir o projeto até a sua conclusão sem muitos desvios.
 
 # Observações adicionais
 - Refrência para as cantigas:
