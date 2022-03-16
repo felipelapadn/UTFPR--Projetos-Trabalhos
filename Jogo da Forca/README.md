@@ -71,7 +71,7 @@ void marcar_chute(char* chute, char* palavra, char* palavra_serceta_sem_letra, i
 }
 ```
 - Função para gerar uma dica:
-´´´
+```
 void dicas(int *dica, char* palavra, char* palavra_serceta_sem_letra){
 	int cont, tamanho = strlen(palavra_serceta_sem_letra);
 	if(*dica >= 1){
@@ -84,5 +84,8 @@ void dicas(int *dica, char* palavra, char* palavra_serceta_sem_letra){
 	}
 	*dica -= 1;
 }
-´´´
+```
+
+### Dificuldades
+Houve algumas complicações durante o projeto, por conta de ser o primeiro contato com a linguagem C. O jogo é baseado em **STRING**, então manipulação de caracteres foi um assunto que precisa ser entendido e aplicado com muito cuidado. Em muitos momentos do desenvolvimento, os **PRINTFs** saiam com um resultado absurdo ou as variáveis, simplesmente, não retornavam valores. Depois de muito estudar as bibliotecas __string.h__ e __ctype.h__
 
